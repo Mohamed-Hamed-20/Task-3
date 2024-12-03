@@ -1,0 +1,60 @@
+body {
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#header h1 {
+  text-align: center;
+}
+
+#loginform {
+  border: 2px dashed rgb(20, 70, 60);
+}
+
+.none-bullet-list {
+  list-style-type: none;
+}
+
+.none-bullet-list li a {
+  text-decoration: none;
+  color: red;
+  background-color: pink;
+}
+
+.none-bullet-list li a:hover {
+  color: pink;
+  background-color: red;
+}
+
+#content > h2 + p {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+input[type="text"] {
+  background-color: yellow;
+}
+
+input[type="text"]:focus {
+  background-color: white;
+}
+
+.tabled-bordered {
+  display: table-cell;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+span p::after {
+  content: " Read this";
+  color: yellow;
+}
+
+#content > p#aboutus {
+  color: yellow;
+}
+
+#aboutus {
+  color: red !important;
+}
